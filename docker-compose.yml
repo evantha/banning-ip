@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  ratelimited-api:
+    build: .
+    container_name: ratelimited-api
+    ports:
+      - 8080:8080
+#    depends_on:
+#      - rabbitmq
+#    restart: on-failure
+
+#  rabbitmq:
+#    image: rabbitmq:3.8.12-rc.1-alpine
+#    container_name: rabbitmq
+#    ports:
+#      - "15672:15672"
+#      - "61613:61613"
+#      - "5672:5672"

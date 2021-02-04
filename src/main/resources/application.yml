@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: myapp
+  server:
+    port: 8080
+
+ratelimit:
+  enabled: true
+  max-allowed: 5
+  period: 5s
+  reset-interval: 10s
+
+rabbitmq:
+  uri: amqp://localhost:5672

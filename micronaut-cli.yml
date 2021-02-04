@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.mygroup.myapp
+---
+testFramework: junit
+sourceLanguage: java
