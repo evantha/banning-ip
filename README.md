@@ -10,6 +10,7 @@ If our api sits behind an API gateway (eg: AWS API Gateway) or a load balancer (
 services are readily available. Then we do not need to worry about such cross cutting concerns and concentrate on our 
 business problems and control all our microservices from a single place.
 ### Requirements
+- Maven
 - Docker
 - Docker Compose
 
@@ -18,6 +19,7 @@ business problems and control all our microservices from a single place.
 ```shell script
 git clone https://github.com/evantha/banning-ip.git
 cd myapp
+mvn clean install
 ```
 * Run unit tests
 ```shell script
